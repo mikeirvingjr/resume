@@ -53,8 +53,8 @@ h1, h2, h3 {
     padding-bottom: 1em;
 }
 
-@media (min-width: 1000px){
+/*@media (min-width: 1000px){*/
     #mainLeft {
         border-right: 1px solid lightgray;
     }
-}
+/*}*/
