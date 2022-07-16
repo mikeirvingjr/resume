@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     max-width: 960px;
     margin: auto;
 }
@@ -45,6 +45,11 @@ i {
 
 p {
     margin: .2em auto
+}
+
+.exprience-description {
+    margin: -1em .2em auto auto;
+    font-size: 11pt;
 }
 
 hr {
