@@ -10,6 +10,10 @@ h1 {
     padding-top: 1em;
 }
 
+.icon {
+    color: rgb(24, 90, 189);
+}
+
 .avitar {
     width:250px;
     border-radius: 50%;
@@ -17,6 +21,7 @@ h1 {
 
 h2 {
     font-size: 1.5em;
+    color: rgb(24, 90, 189);
     /* font-weight: bold !important;     */
 }
 
