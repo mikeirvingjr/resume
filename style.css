@@ -38,6 +38,10 @@ main {
     margin-top: 3em;
 }
 
+#contactLeft {
+    display: none;
+}
+
 header {
     text-align: center;
     margin: auto 2em;
