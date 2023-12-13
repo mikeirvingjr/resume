@@ -1,0 +1,15 @@
+@media print {
+    @page {
+        size: A4;
+        size: portrait;
+    }
+
+    img,
+    .avitar {
+        display: none;
+    }
+
+    hr {
+        display: none;
+    }
+}
