@@ -17,11 +17,11 @@
         border-right: 0px;
     }
 
-    #contactLeft {
+    .printable {
         display: block;
     }
 
-    #contactRight {
+    .viewable {
         display: none;
     }
 }
