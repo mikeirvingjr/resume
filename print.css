@@ -4,6 +4,10 @@
         size: portrait;
     }
 
+    main {
+        margin-top: 0em;
+    }
+
     img,
     .avitar {
         display: none;
