@@ -1,15 +1,107 @@
+:root {
+    --emerald-green: #27592D;
+}
+
 body {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Garamond", Arial, Times New Roman, Verdana, sans-serif;
     font-size: 16px;
-    max-width: 960px;
+    /*max-width: 960px;*/
     margin: auto;
 }
 
-h1 {
-    font-size: 2.5em;
-    letter-spacing: 0.05em;
-    padding-top: 0em;
-    padding-bottom: 0em !important;
+.wrapper {
+    display: -webkit-flex;
+    /*-webkit-justify-content: center;*/
+    display: flex;
+    /*justify-content: center;*/
+}
+
+.skills-block {
+    padding-top: 0.5em;
+}
+
+.work-title, .section-title {
+    font-size: 1em;
+    padding-top: 0.25em;
+    font-weight: 600;
+    padding-bottom: 0;
+}
+
+.work-title > :first-child {
+    padding-top: 0;
+    color: red;
+}
+
+
+.section-title {
+    padding-top: 0;
+    font-size: 1.25em;
+    text-align: start;
+    font-weight: 700;
+}
+
+.shadow {
+    font-size: 0.75em;
+    color: grey;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-top: 0;    
+}
+
+#column1 {
+    width: 33%;
+    color: white;
+    min-height: 100vh;
+    background-color: var(--emerald_green, #27592D);
+}
+
+#column2 {
+    width: auto;
+    color: black;
+    background-color: white;
+}
+
+#name {
+    text-align: center;
+    font-size: 1.75em;
+    padding-bottom: 0;
+}
+
+hr {
+    width: 20%;
+    border: none;
+    background-color: lightgray;
+    height: 1px;
+}
+
+#profession {
+    text-transform: uppercase;
+    font-size: 0.89em;
+}
+
+progress { 
+    -webkit-appearance: none;
+    -moz-appearance: none;      
+    appearance: none;
+    
+    padding-top: 0.15em;
+    
+    accent-color: white;
+    border: none;
+    height: 5px;
+    background: var(--emerald_green, #27592D);
+}
+
+progress::-webkit-progress-bar {
+    background-color: var(--emerald_green, #27592D);
+}
+
+progress[value]::-webkit-progress-value {
+    background: white;
+}
+
+progress[value]::-moz-progress-bar { 
+  background: white;    
 }
 
 .icon {
@@ -17,25 +109,31 @@ h1 {
 }
 
 .avitar {
-    width: 250px;
+    width: 200px;
     border-radius: 50%;
 }
 
+h1,
+h2,
+h3 {
+    font-weight: 600;
+    margin-bottom: 0;
+    padding-bottom: 1em;
+}
+
+h1 {
+    font-size: 2.5em;
+    letter-spacing: 0.05em;
+}
+
 h2 {
-    font-size: 1.5em;
-    color: rgb(24, 90, 189);
+    font-size: 1.25em;
+    text-align: center;
     padding-bottom: 0.15em !important;
 }
 
 h3 {
     font-size: 1em;
-}
-
-main {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    grid-gap: 1em;
-    margin-top: 3em;
 }
 
 .printable {
@@ -47,12 +145,7 @@ main {
 }
 
 .reducespace-05 {
-    margin: 0px 0 0.05em 0;
-}
-
-header {
-    text-align: center;
-    margin: auto 2em;
+    margin: 0 0 0.05em 0;
 }
 
 section {
@@ -63,33 +156,3 @@ p {
     margin: 0.2em auto;
 }
 
-.exprience-description {
-    margin: -1em 0.2em auto auto;
-    font-size: 11pt;
-}
-
-hr {
-    border: none;
-    background-color: lightgray;
-    height: 1px;
-}
-
-h1,
-h2,
-h3 {
-    font-weight: 600;
-    margin-bottom: 0;
-    padding-bottom: 1em;
-}
-
-.work-info :first-child {
-    padding-top: 0em;
-    color: red;
-}
-
-/*@media (min-width: 1000px){*/
-#mainLeft {
-    border-right: 1px solid lightgray;
-}
-
-/*}*/

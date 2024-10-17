@@ -2,10 +2,21 @@
     @page {
         size: A4;
         size: portrait;
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 0;
     }
-
+    
+    #column1 {
+        background-color: var(--emerald_green, #27592D) !important;
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+        -moz-print-color-adjust: exact;
+    }
+    
+    
     main {
-        margin-top: 0em;
+        margin-top: 0;
     }
 
     img,
@@ -13,12 +24,8 @@
         display: none;
     }
 
-    hr {
-        display: none;
-    }
-
     #mainLeft {
-        border-right: 0px;
+        border-right: 0;
     }
 
     .printable {
