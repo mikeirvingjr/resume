@@ -8,16 +8,30 @@
     }
     
     #column1 {
+        min-height: 100vh !important;
         background-color: var(--emerald_green, #27592D) !important;
         print-color-adjust: exact;
         -webkit-print-color-adjust: exact;
-        -moz-print-color-adjust: exact;
+        -moz-print-color-adjust: exact;-webkit-print-color-adjust: exact; color-adjust: exact;
     }
     
+    section {
+        margin: auto 1em 1em 1em;
+    }
+    
+    h2 {
+        font-size: 1.25em;
+        text-align: center;
+        padding-bottom: 0.10em !important;
+    }
+    
+    /*.section-optimize {
+        margin: auto 1em .9px 1em;
+    }*/
     
     main {
         margin-top: 0;
-    }
+    }    
 
     img,
     .avitar {

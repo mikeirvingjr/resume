@@ -49,7 +49,7 @@ body {
     width: 33%;
     color: white;
     min-height: 100vh;
-    background-color: var(--emerald_green, #27592D);
+    background-color: var(--emerald_green, #27592D);    
 }
 
 #column2 {
